@@ -18,18 +18,6 @@ public abstract class TesteDAO {
 
 	@BeforeEach
 	public void setUp() {
-	    String sep = File.separator;
-
-	    File dir = new File("." + sep + getClasse().getSimpleName());
-
-	    System.out.println("CAMINHO: " + dir.getAbsolutePath());
-	    System.out.println("EXISTE: " + dir.exists());
-	    System.out.println("É DIRETÓRIO: " + dir.isDirectory());
-
-	    File[] files = dir.listFiles();
-
-	    for (File file : files) {
-	        file.delete();
-	    }
+		FileUtils.limparDiretorio("." + File.separator + getClasse().getSimpleName());
 	}
 }
