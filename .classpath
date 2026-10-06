@@ -5,9 +5,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/danda/Downloads/lombok.jar"/>
-	<classpathentry kind="lib" path="C:/Users/danda/Downloads/junit-platform-console-standalone-1.0.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/danda/Downloads/PersistenciaObjetos.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
